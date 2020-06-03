@@ -1,0 +1,8 @@
+@import "~antd/dist/antd.css";
+
+.sidebar {
+	overflow: "auto";
+	height: "100vh";
+	position: "fixed";
+	left: 0;
+}
