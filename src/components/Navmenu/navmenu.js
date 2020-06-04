@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 // import { NavHashLink as NavLink } from "react-router-hash-link";
 import { Anchor } from "antd";
-import { Menu, Affix } from "antd";
+// import { Menu, Affix } from "antd";
 
 // Local
 import "./navmenu.css";
@@ -14,10 +14,10 @@ function Navmenu() {
 	return (
 		// <Affix offsetTop={10}>
 		<Anchor offsetTop={100}>
-			<Link href="#about" title="Basic demo" />
-			<Link href="#work" title="Static demo" />
-			<Link href="#resume" title="Other demo" />
-			<Link href="#contact" title="Last demo" />
+			<Link href="#about" title="about me" />
+			<Link href="#work" title="work" />
+			<Link href="#resume" title="resume" />
+			<Link href="#contact" title="contact" />
 		</Anchor>
 		// <Menu mode="vertical">
 		// 	<Menu.Item key="about">
