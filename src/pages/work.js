@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 // Local
 import ProjectCard from "../components/ProjectCard";
-import projects from "../utils/projects";
+import projects from "../assets/projects";
 
 // Export function
 function Work() {

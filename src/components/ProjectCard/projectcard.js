@@ -13,12 +13,20 @@ function ProjectCard(props) {
 			<div class="project-info">
 				<h3>{props.title}</h3>
 				<p>{props.text}</p>
-				<Button type="link" href={props.codelink} target="_blank">
-					source
-				</Button>
-				<Button type="link" href={props.demolink} target="_blank">
-					demo
-				</Button>
+				{props.codelink ? (
+					<Button type="link" href={props.codelink} target="_blank">
+						source
+					</Button>
+				) : (
+					<div></div>
+				)}
+				{props.demolink ? (
+					<Button type="link" href={props.demolink} target="_blank">
+						demo
+					</Button>
+				) : (
+					<div></div>
+				)}
 			</div>
 		</Card>
 	);
