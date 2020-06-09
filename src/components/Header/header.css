@@ -1,3 +1,4 @@
-footer {
-	color: white;
+.quote {
+	max-width: 600px;
+	margin-bottom: calc(10vh + 4em);
 }

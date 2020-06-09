@@ -1,7 +1,6 @@
 // Global
-import React, { useState } from "react";
-import { Affix } from "antd";
-import { LinkedinFilled, GithubFilled } from "@ant-design/icons";
+import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 // Local
 import "./footer.css";
@@ -9,17 +8,22 @@ import "./footer.css";
 // Export function
 function Footer() {
 	return (
-		<Affix offsetTop={400}>
-			<footer className="footer">
-				<a href="https://www.linkedin.com/in/ingrid-c-hoffman/" rel="noopener noreferrer" target="_blank">
-					<LinkedinFilled />
-				</a>
-				<a href="https://github.com/ingridhoffman" rel="noopener noreferrer" target="_blank">
-					<GithubFilled />
-				</a>
-				<p>ingridhoffman.pdx@gmail.com</p>
-			</footer>
-		</Affix>
+		<footer className="footer">
+			<a
+				href="https://www.linkedin.com/in/ingrid-c-hoffman/"
+				rel="noopener noreferrer"
+				target="_blank"
+				className="link-icon">
+				<FaLinkedin />
+			</a>
+			<a
+				href="https://github.com/ingridhoffman"
+				rel="noopener noreferrer"
+				target="_blank"
+				className="link-icon">
+				<FaGithub />
+			</a>
+		</footer>
 	);
 }
 

@@ -1,3 +1,40 @@
-.projectImage {
-	width: 90%;
+.project {
+	flex-basis: 400px;
+	flex-shrink: 0;
+	flex-grow: 1;
+	margin: 0.5em;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+}
+
+.project img {
+	width: 100%;
+	background-color: white;
+	height: auto;
+	object-fit: cover;
+	pointer-events: none;
+	position: relative;
+	z-index: 1;
+}
+
+.project .info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.5em;
+	z-index: 0;
+}
+
+/* hover effects */
+.show .project-info {
+	display: block;
+}
+
+.hide .project-info {
+	display: none;
+}
+
+.show img {
+	opacity: 5%;
 }

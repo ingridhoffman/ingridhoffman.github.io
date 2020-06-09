@@ -1,47 +1,72 @@
 // Global
-import React, { useState } from "react";
-// import { NavHashLink as NavLink } from "react-router-hash-link";
-import { Anchor } from "antd";
-// import { Menu, Affix } from "antd";
+import React from "react";
+import { NavHashLink as NavLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 // Local
 import "./navmenu.css";
 
 // Export function
 function Navmenu() {
-	const { Link } = Anchor;
+	let location = useLocation();
+
+	// $(window).scroll(function () {
+	// 	var position = $(this).scrollTop();
+
+	// 	$("article").each(function () {
+	// 		var target = $(this).offset().top - 300;
+	// 		var id = $(this).attr("id");
+
+	// 		if (position >= target) {
+	// 			// remove active class from other nav links
+	// 			$("nav li a").removeClass("pop");
+	// 			// activate currect section nav link
+	// 			$(`[href="#${id}"]`).addClass("pop");
+	// 			// document.querySelector(`[href="#${id}"]`).classList.add("pop");
+	// 		}
+	// 	});
+	// });
 
 	return (
-		// <Affix offsetTop={10}>
-		<Anchor offsetTop={100}>
-			<Link href="#about" title="about me" />
-			<Link href="#work" title="work" />
-			<Link href="#resume" title="resume" />
-			<Link href="#contact" title="contact" />
-		</Anchor>
-		// <Menu mode="vertical">
-		// 	<Menu.Item key="about">
-		// 		<NavLink smooth to="#about" activeClassName="selected">
-		// 			about me
-		// 		</NavLink>
-		// 	</Menu.Item>
-		// 	<Menu.Item key="work">
-		// 		<NavLink smooth to="#work" activeClassName="selected">
-		// 			work
-		// 		</NavLink>
-		// 	</Menu.Item>
-		// 	<Menu.Item key="resume">
-		// 		<NavLink smooth to="#resume" activeClassName="selected">
-		// 			resume
-		// 		</NavLink>
-		// 	</Menu.Item>
-		// 	<Menu.Item key="contact">
-		// 		<NavLink smooth to="#contact" activeClassName="selected">
-		// 			contact
-		// 		</NavLink>
-		// 	</Menu.Item>
-		// </Menu>
-		// </Affix>
+		<nav>
+			<ul>
+				<li>
+					<NavLink
+						smooth
+						to="#about"
+						className={location.hash === "#about" ? "pop" : ""}
+						scroll={(el) =>
+							el.scrollIntoView({ behavior: "instant", block: "end" })
+						}>
+						about me
+					</NavLink>
+				</li>
+				<li>
+					<NavLink
+						smooth
+						to="#work"
+						className={location.hash === "#work" ? "pop" : ""}>
+						work
+					</NavLink>
+				</li>
+				<li>
+					<NavLink
+						smooth
+						to="#resume"
+						className={location.hash === "#resume" ? "pop" : ""}>
+						resume
+					</NavLink>
+				</li>
+				<li>
+					<NavLink
+						smooth
+						to="#contact"
+						className={location.hash === "#contact" ? "pop" : ""}>
+						contact
+					</NavLink>
+				</li>
+			</ul>
+		</nav>
 	);
 }
 

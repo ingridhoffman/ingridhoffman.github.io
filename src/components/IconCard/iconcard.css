@@ -1,3 +1,24 @@
+.card {
+	padding: 1em;
+	flex-basis: 240px;
+	flex-shrink: 0;
+	flex-grow: 1;
+	margin: 0.5em;
+}
+
+.color {
+	background-color: #7a7b8a;
+}
+.reverse {
+	background-color: white;
+}
+
 .icon {
 	width: 80px;
+	margin-bottom: 1em;
+}
+
+.noicon {
+	height: 80px;
+	margin-bottom: 1em;
 }

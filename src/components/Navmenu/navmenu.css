@@ -1,1 +1,13 @@
-@import "~antd/dist/antd.css";
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 20vh;
+	padding-top: 5%;
+	text-align: right;
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+nav ul {
+	list-style: none;
+}
