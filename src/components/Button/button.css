@@ -1,0 +1,16 @@
+.button {
+	border: solid 1px #3f3f5a;
+	border-radius: 3px;
+	padding: 0.5em;
+	width: 8em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1em;
+	margin: 1em 0;
+}
+
+.button:hover,
+.button:active {
+	border: solid 1px #cc433a;
+}
