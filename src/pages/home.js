@@ -2,7 +2,6 @@
 import React from "react";
 
 // Local
-import Header from "../components/Header";
 import About from "./about";
 import Contact from "./contact";
 import Resume from "./resume";
@@ -12,7 +11,6 @@ import Work from "./work";
 function Home() {
 	return (
 		<main>
-			<Header />
 			<About />
 			<Work />
 			<Resume />

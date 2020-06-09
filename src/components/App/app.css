@@ -1,1 +1,119 @@
-@import "~antd/dist/antd.css";
+/* CONTAINERS */
+.container {
+	background-color: white;
+	display: flex;
+	align-items: stretch;
+	width: 99%;
+	margin-top: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-basis: 18%;
+	flex-shrink: 0;
+	background-color: #3f3f5a;
+	padding: 2%;
+}
+
+main {
+	flex-grow: 1;
+	padding: 5%;
+}
+
+header {
+	padding-top: calc(5vh + 1em);
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: calc(5vh + 1em);
+}
+
+section {
+	margin-bottom: calc(5vh + 3em);
+}
+
+.cardholder {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+}
+
+/* TEXT */
+/* text styles*/
+h1,
+.pop {
+	font-family: "Syncopate", sans-serif;
+}
+
+h2,
+h3,
+a {
+	font-family: "Sen", sans-serif;
+}
+
+/* text colors*/
+h1,
+h2,
+h3 {
+	color: #010147;
+}
+
+a:hover,
+a:active,
+.pop,
+.emphasize {
+	color: #cc4f3c !important;
+}
+
+a,
+a:visited {
+	color: #7a7b8a;
+}
+
+/* general text styling*/
+h1 {
+	font-size: 3em;
+	text-align: right;
+}
+
+h2 {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.1em;
+	margin-bottom: 1em;
+}
+
+p {
+	font-size: 0.9em;
+	letter-spacing: 0.05em;
+	line-height: 1.8em;
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* class text styling*/
+.right {
+	text-align: right;
+}
+
+.emphasize {
+	font-weight: 700;
+}
+
+.react-icon {
+	vertical-align: text-top;
+	margin-right: 1em;
+}

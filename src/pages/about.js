@@ -3,18 +3,20 @@ import React from "react";
 
 // Local
 import IconCard from "../components/IconCard";
-import LearnIcon from "../images/icons/noun_problem_2148912.png";
-import RelateIcon from "../images/icons/noun_networking_2148898.png";
-import ActivateIcon from "../images/icons/noun_Idea_204651.png";
-import MaximizeIcon from "../images/icons/noun_grow_2134952.png";
-import StrategicIcon from "../images/icons/noun_Planning process_2148913.png";
+import LearnIcon from "../assets/icons/noun_problem_2148912.png";
+import RelateIcon from "../assets/icons/noun_networking_2148898.png";
+import ActivateIcon from "../assets/icons/noun_Idea_204651.png";
+import MaximizeIcon from "../assets/icons/noun_grow_2134952.png";
+import StrategicIcon from "../assets/icons/noun_Planning process_2148913.png";
 
 // Export function
 function About() {
 	return (
 		<section id="about">
-			<h2>Full-stack developer with an emphasis on design and application architecture.</h2>
-			<div class="IconCardholder">
+			<h2>
+				full-stack developer with an emphasis on design and application logic
+			</h2>
+			<div className="cardholder">
 				<IconCard
 					type="reverse"
 					text="I prioritize understanding the values, brand, and culture of the company I am working for, and strive to

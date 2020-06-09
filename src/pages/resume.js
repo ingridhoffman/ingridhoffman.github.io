@@ -1,11 +1,12 @@
 // Global
 import React from "react";
-import { Button } from "antd";
+import { BsCheckCircle } from "react-icons/bs";
 
 // Local
 import IconCard from "../components/IconCard";
-import TechIcon from "../images/icons/noun_learn_355071.png";
-import TransferIcon from "../images/icons/noun_management_2025303.png";
+import Button from "../components/Button";
+import TechIcon from "../assets/icons/noun_learn_355071.png";
+import TransferIcon from "../assets/icons/noun_management_2025303.png";
 
 // Export function
 function Resume() {
@@ -17,27 +18,25 @@ function Resume() {
 				developed valuable skills and knowledge that translate directly to the
 				world of technology including:
 			</p>
-			<p class="bullets">
-				<i class="far fa-check-circle"></i>
+			<p>
+				<BsCheckCircle className="react-icon" />
 				Creating intuitive and aesthetically pleasing user facing design
 			</p>
-			<p class="bullets">
-				<i class="far fa-check-circle"></i>
+			<p>
+				<BsCheckCircle className="react-icon" />
 				Building a functional, logical, and efficient framework
 			</p>
-			<p class="bullets">
-				<i class="far fa-check-circle"></i>
+			<p>
+				<BsCheckCircle className="react-icon" />
 				Structuring for an authentic integration of back-end and front-end
 				experience
 			</p>
-			<p class="bullets">
-				<i class="far fa-check-circle"></i>
+			<p>
+				<BsCheckCircle className="react-icon" />
 				Strength in translating iteration and changing variables into innovation
 				for an improved outcome
 			</p>
-			<Button onClick="">resume</Button>
-			<h2>Proficiencies</h2>
-			<div class="cardholder">
+			<div className="cardholder">
 				<IconCard
 					icon={TechIcon}
 					title="Technical Skills"
@@ -51,6 +50,10 @@ function Resume() {
 					expertise and stakeholder priorities"
 				/>
 			</div>
+			<Button
+				label="resume"
+				link="https://drive.google.com/file/d/1YtVA0wUcCaPWM7YFUA0Bsp5k6HW_5hoe/view?usp=sharing"
+			/>
 		</section>
 	);
 }

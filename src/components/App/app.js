@@ -1,40 +1,28 @@
 // Global
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Layout } from "antd";
+import { BrowserRouter as Router } from "react-router-dom";
 
 // Local
 import "./app.css";
 import Navmenu from "../Navmenu";
 import Footer from "../Footer";
+import Header from "../Header";
 import Home from "../../pages/home";
 
 // Export function
 function App() {
-	const { Sider, Content } = Layout;
-
 	return (
 		<Router>
-			<Layout>
-				<Sider
-					breakpoint="md"
-					collapsedWidth="40"
-					className="sidebar"
-					onBreakpoint={(broken) => {
-						console.log(broken);
-					}}
-					onCollapse={(collapsed, type) => {
-						console.log(collapsed, type);
-					}}>
+			<div className="container">
+				<aside>
 					<Navmenu />
 					<Footer />
-				</Sider>
-				<Layout className="site-layout">
-					<Content className="site-layout-background">
-						<Home />
-					</Content>
-				</Layout>
-			</Layout>
+				</aside>
+				<main>
+					<Header />
+					<Home />
+				</main>
+			</div>
 		</Router>
 	);
 }
