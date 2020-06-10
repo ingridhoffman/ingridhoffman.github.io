@@ -24,30 +24,31 @@ function Form() {
 					<span>My name is</span>
 					<input
 						name="name"
+						aria-label="input name"
 						placeholder="name"
 						size={25}
 						ref={register({ required: true })}
 					/>
-					{errors.name && <span>This field is required</span>}
 					<span>and I work with</span>
 					<input
 						name="company"
+						aria-label="input company"
 						placeholder="company"
 						size={30}
 						ref={register({ required: true })}
 					/>
-					{errors.company && <span>This field is required</span>}
 					<span>. I'd like to chat with you about</span>
 					<input
 						name="topic"
+						aria-label="input topic"
 						placeholder="topic"
 						size={50}
 						ref={register({ required: true })}
 					/>
-					{errors.topic && <span>This field is required</span>}
 					<span>. Please email me at</span>
 					<input
 						name="email"
+						aria-label="input email"
 						placeholder="email address"
 						size={30}
 						ref={register({
@@ -55,9 +56,14 @@ function Form() {
 							pattern: /\S+@\S+\.\S+/,
 						})}
 					/>
-					{errors.email && <span>Please enter a valid email address</span>}
 					<span>.</span>
 				</p>
+				{errors.name && <p className="error">Name is required</p>}
+				{errors.company && <p className="error">Company is required</p>}
+				{errors.topic && <p className="error">Topic is required</p>}
+				{errors.email && (
+					<p className="error">Please enter a valid email address</p>
+				)}
 				<Button type="submit" label="send" />
 			</form>
 		</div>

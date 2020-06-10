@@ -4,10 +4,17 @@ nav {
 	top: 20vh;
 	padding-top: 5%;
 	text-align: right;
-	font-size: 0.8em;
-	line-height: 1.4em;
 }
 
 nav ul {
 	list-style: none;
+}
+
+.navlink {
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+.active {
+	color: red;
 }

@@ -12,6 +12,7 @@ function Button(props) {
 			{props.type === "submit" ? (
 				<button
 					type="submit"
+					aria-label="submit button"
 					className={props.small ? "button small" : "button"}>
 					send
 				</button>
@@ -20,6 +21,7 @@ function Button(props) {
 					href={props.link}
 					rel="noopener noreferrer"
 					target="_blank"
+					aria-label={`link to ${props.label}`}
 					className={props.small ? "button small" : "button"}>
 					{props.label}
 				</a>

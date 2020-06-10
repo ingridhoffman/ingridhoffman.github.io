@@ -3,7 +3,7 @@
 	flex-basis: 300px;
 	flex-shrink: 0;
 	flex-grow: 1;
-	margin: 0.5em;
+	margin: 1em;
 }
 
 .color {
@@ -14,11 +14,30 @@
 }
 
 .icon {
-	width: 80px;
-	margin-bottom: 1em;
+	width: 3em;
 }
 
 .noicon {
-	height: 80px;
-	margin-bottom: 1em;
+	height: 3em;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		margin-top: 0;
+	}
+	/* aside {
+		width: 200px;
+		transform: translateX(-210px);
+		transition: transform 0.3s linear;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+
+	.card-project {
+		flex-shrink: 1;
+	} */
 }

@@ -22,3 +22,8 @@ input {
 ::placeholder {
 	color: #7a7b8a;
 }
+
+.error {
+	color: white;
+	margin: 0 3em;
+}

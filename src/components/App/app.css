@@ -3,7 +3,7 @@
 	background-color: white;
 	display: flex;
 	align-items: stretch;
-	width: 99%;
+	width: 96%;
 	margin-top: 4px;
 	margin-left: auto;
 	margin-right: auto;
@@ -27,11 +27,11 @@ main {
 header {
 	flex-direction: column;
 	justify-content: space-between;
-	margin-bottom: calc(5vh + 3em);
+	margin-bottom: calc(4vw + 3em);
 }
 
 section {
-	margin-bottom: calc(5vh + 3em);
+	margin-bottom: calc(4vw + 3em);
 }
 
 .cardholder {
@@ -115,4 +115,12 @@ a {
 .react-icon {
 	vertical-align: text-top;
 	margin-right: 1em;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		margin-top: 0;
+	}
 }

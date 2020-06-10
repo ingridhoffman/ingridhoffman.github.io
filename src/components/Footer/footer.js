@@ -13,6 +13,7 @@ function Footer() {
 				href="https://www.linkedin.com/in/ingrid-c-hoffman/"
 				rel="noopener noreferrer"
 				target="_blank"
+				aria-label="link to LinkedIn"
 				className="link-icon">
 				<FaLinkedin />
 			</a>
@@ -20,6 +21,7 @@ function Footer() {
 				href="https://github.com/ingridhoffman"
 				rel="noopener noreferrer"
 				target="_blank"
+				aria-label="link to GitHub"
 				className="link-icon">
 				<FaGithub />
 			</a>
