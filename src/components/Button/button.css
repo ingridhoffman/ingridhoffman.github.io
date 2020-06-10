@@ -14,3 +14,9 @@
 .button:active {
 	border: solid 1px #cc433a;
 }
+
+.small {
+	transform: scale(0.7);
+	transform-origin: right;
+	margin: 0em;
+}

@@ -1,10 +1,9 @@
 // Global
 import React, { useState } from "react";
-// import React, { useState, useEffect } from "react";
-import { Card, Button } from "antd";
 
 // Local
 import "./projectcard.css";
+import Button from "../Button";
 
 // Export function
 function ProjectCard(props) {
@@ -12,7 +11,7 @@ function ProjectCard(props) {
 	const [hover, setHover] = useState(false);
 
 	return (
-		<Card
+		<div
 			onMouseEnter={() => setHover(!hover)}
 			onMouseLeave={() => setHover(!hover)}
 			className={hover ? "project show" : "project hide"}>
@@ -22,21 +21,17 @@ function ProjectCard(props) {
 				<h3>{props.title}</h3>
 				<p>{props.text}</p>
 				{props.codelink ? (
-					<Button type="link" href={props.codelink} target="_blank">
-						source
-					</Button>
+					<Button link={props.codelink} label="source" small />
 				) : (
 					<div></div>
 				)}
 				{props.demolink ? (
-					<Button type="link" href={props.demolink} target="_blank">
-						demo
-					</Button>
+					<Button link={props.demolink} label="demo" small />
 				) : (
 					<div></div>
 				)}
 			</div>
-		</Card>
+		</div>
 	);
 }
 

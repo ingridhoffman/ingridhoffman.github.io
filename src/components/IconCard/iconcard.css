@@ -1,6 +1,6 @@
 .card {
 	padding: 1em;
-	flex-basis: 240px;
+	flex-basis: 300px;
 	flex-shrink: 0;
 	flex-grow: 1;
 	margin: 0.5em;

@@ -14,13 +14,14 @@ function Work() {
 				the client.
 			</h2>
 			<div className="cardholder" id="portfolio">
-				{projects.map((project) => (
+				{projects.map((project, index) => (
 					<ProjectCard
 						image={project.image}
 						title={project.name}
 						text={project.statement}
 						codelink={project.codelink}
 						demolink={project.demolink}
+						key={project.name}
 					/>
 				))}
 			</div>

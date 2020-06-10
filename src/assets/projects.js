@@ -50,7 +50,7 @@ const projects = [
 		image:
 			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1591395858/EatDeBurger_k9ub1b.png",
 		codelink: "https://github.com/ingridhoffman/Eat-De-Burger",
-		demolink: "https://dashboard.heroku.com/apps/eat-de-burger",
+		demolink: "https://eat-de-burger.herokuapp.com/",
 	},
 	{
 		name: "Jacob's Ladder",

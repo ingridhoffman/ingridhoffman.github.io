@@ -10,12 +10,12 @@ import Work from "./work";
 // Export function
 function Home() {
 	return (
-		<main>
+		<>
 			<About />
 			<Work />
 			<Resume />
 			<Contact />
-		</main>
+		</>
 	);
 }
 

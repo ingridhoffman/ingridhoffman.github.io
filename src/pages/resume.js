@@ -6,7 +6,8 @@ import { BsCheckCircle } from "react-icons/bs";
 import IconCard from "../components/IconCard";
 import Button from "../components/Button";
 import TechIcon from "../assets/icons/noun_learn_355071.png";
-import TransferIcon from "../assets/icons/noun_management_2025303.png";
+import ManageIcon from "../assets/icons/noun_management_2025303.png";
+import CommunicateIcon from "../assets/icons/noun_Communication_925161.png";
 
 // Export function
 function Resume() {
@@ -40,14 +41,17 @@ function Resume() {
 				<IconCard
 					icon={TechIcon}
 					title="Technical Skills"
-					text="HTML, CSS, Bootstrap, Responsive Design, Javascript, JQuery, ES6+, AJAX, Node.js, Express, MySQL, MongoDB"
+					text="HTML -- CSS -- Bootstrap -- Responsive Design -- Javascript -- JQuery -- ES6+ -- AJAX -- Node.js -- Express -- MySQL -- MongoDB -- React"
 				/>
 				<IconCard
-					icon={TransferIcon}
-					title="Transferable Skills"
-					text="Project Management - budgets, schedules, team coordination, resource
-					and labor allocation, Communication - understanding and translating between areas of
-					expertise and stakeholder priorities"
+					icon={ManageIcon}
+					title="Project Management"
+					text="Creating, implementing, and tracking budgets, schedules, team coordination, resource and labor allocation"
+				/>
+				<IconCard
+					icon={CommunicateIcon}
+					title="Communication"
+					text="Understanding and translating between areas of expertise and stakeholder priorities"
 				/>
 			</div>
 			<Button
