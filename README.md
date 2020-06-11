@@ -20,7 +20,7 @@ useful information about me to potential employers, clients, and colleagues.
 - add icons for technologies used on projects
 - add carousel for more project info
 
-# Credits
+### Credits
 
 Icons:
 
