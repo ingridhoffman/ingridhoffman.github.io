@@ -10,11 +10,15 @@ nav ul {
 	list-style: none;
 }
 
-.navlink {
-	font-size: 0.9em;
-	line-height: 1.5em;
+nav ul li {
+	font-size: 1em;
+	line-height: 1.8em;
 }
 
 .active {
-	color: red;
+	color: #cc4f3c;
+	font-family: "Syncopate", sans-serif;
+	font-weight: 700;
+	font-size: 0.9em;
+	line-height: 3em;
 }

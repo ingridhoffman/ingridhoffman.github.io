@@ -1,6 +1,5 @@
 // Global
-import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import React, { useEffect } from "react";
 
 // Local
 import "./app.css";
@@ -12,18 +11,16 @@ import Home from "../../pages/home";
 // Export function
 function App() {
 	return (
-		<Router>
-			<div className="container">
-				<aside>
-					<Navmenu />
-					<Footer />
-				</aside>
-				<main>
-					<Header />
-					<Home />
-				</main>
-			</div>
-		</Router>
+		<div className="container">
+			<aside>
+				<Navmenu />
+				<Footer />
+			</aside>
+			<main>
+				<Header />
+				<Home />
+			</main>
+		</div>
 	);
 }
 

@@ -12,7 +12,7 @@ import StrategicIcon from "../assets/icons/noun_Planning process_2148913.png";
 // Export function
 function About() {
 	return (
-		<section id="about">
+		<section id="aboutSection">
 			<h2>
 				full-stack developer with an emphasis on design and application logic
 			</h2>

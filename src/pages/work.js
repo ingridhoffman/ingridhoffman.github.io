@@ -8,7 +8,7 @@ import projects from "../assets/projects";
 // Export function
 function Work() {
 	return (
-		<section id="work">
+		<section id="workSection">
 			<h2>
 				A great project exceeds the users needs and enhances the brand image of
 				the client.

@@ -12,7 +12,7 @@ import CommunicateIcon from "../assets/icons/noun_Communication_925161.png";
 // Export function
 function Resume() {
 	return (
-		<section id="resume">
+		<section id="resumeSection">
 			<h2>Bringing valuable expertise and experience to a new career path.</h2>
 			<p>
 				Through a breadth of experience in architecture and design, I have

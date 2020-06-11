@@ -21,7 +21,7 @@ aside {
 
 main {
 	flex-grow: 1;
-	padding: 10%;
+	padding: 0 10% 60vh 10%;
 }
 
 header {

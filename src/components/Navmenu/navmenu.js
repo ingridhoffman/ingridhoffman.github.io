@@ -1,70 +1,36 @@
 // Global
-import React from "react";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import { useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 // Local
 import "./navmenu.css";
 
-// Export function
+// Export
 function Navmenu() {
-	let location = useLocation();
-
-	// $(window).scroll(function () {
-	// 	var position = $(this).scrollTop();
-
-	// 	$("article").each(function () {
-	// 		var target = $(this).offset().top - 300;
-	// 		var id = $(this).attr("id");
-
-	// 		if (position >= target) {
-	// 			// remove active class from other nav links
-	// 			$("nav li a").removeClass("pop");
-	// 			// activate currect section nav link
-	// 			$(`[href="#${id}"]`).addClass("pop");
-	// 			// document.querySelector(`[href="#${id}"]`).classList.add("pop");
-	// 		}
-	// 	});
-	// });
+	const [menu, setMenu] = useState([
+		{ id: "aboutSection", text: "about me" },
+		{ id: "workSection", text: "my work" },
+		{ id: "resumeSection", text: "resume" },
+		{ id: "contactSection", text: "contact" },
+	]);
 
 	return (
 		<nav>
 			<ul>
-				<li>
-					<NavLink
-						smooth
-						to="#about"
-						className={location.hash === "#about" ? "pop" : ""}
-						scroll={(el) =>
-							el.scrollIntoView({ behavior: "instant", block: "end" })
-						}>
-						about me
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						smooth
-						to="#work"
-						className={location.hash === "#work" ? "pop" : ""}>
-						work
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						smooth
-						to="#resume"
-						className={location.hash === "#resume" ? "pop" : ""}>
-						resume
-					</NavLink>
-				</li>
-				<li>
-					<NavLink
-						smooth
-						to="#contact"
-						className={location.hash === "#contact" ? "pop" : ""}>
-						contact
-					</NavLink>
-				</li>
+				{menu.map((menuItem) => (
+					<li>
+						<Link
+							activeClass="active"
+							to={menuItem.id}
+							spy={true}
+							smooth={true}
+							offset={-120}
+							duration={500}
+							delay={0}>
+							{menuItem.text}
+						</Link>
+					</li>
+				))}
 			</ul>
 		</nav>
 	);
