@@ -6,7 +6,16 @@ const projects = [
 		image:
 			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1591395858/KaraoKanI_qhf6qb.png",
 		codelink: "https://github.com/ingridhoffman/KaraoKanI",
-		demolink: "https://ingridhoffman.github.io/KaraoKanI/",
+		demolink: "https://search-for-google-books.herokuapp.com/",
+	},
+	{
+		name: "Google Books Search",
+		statement:
+			"This MERN application performs a search of Google Books and allows users to save them to their own personal library and/or view the books in Google Play.",
+		image:
+			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1592025903/mybooks_nb46wo.png",
+		codelink: "https://github.com/ingridhoffman/Book-Search",
+		demolink: "",
 	},
 	{
 		name: "Employee Directory",
