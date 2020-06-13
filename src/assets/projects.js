@@ -15,7 +15,7 @@ const projects = [
 		image:
 			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1592025903/mybooks_nb46wo.png",
 		codelink: "https://github.com/ingridhoffman/Book-Search",
-		demolink: "",
+		demolink: "https://search-for-google-books.herokuapp.com/",
 	},
 	{
 		name: "Employee Directory",
