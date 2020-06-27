@@ -1,18 +1,23 @@
-# Professional Portfolio
+# Portfolio for Ingrid Hoffman
 
-Welcome to my professional portfolio site. This website is intended to provide useful information about me to potential employers and/or new clients.
+Welcome to my professional portfolio site. This website is intended to provide
+useful information about me to potential employers, clients, and colleagues.
 
-<img src="" alt="app screenshot" width=90% />
+<img src="https://github.com/ingridhoffman/ingridhoffman.github.io/blob/development/ingridhoffman.github.io_.png" alt="app screenshot" width=90% />
 
 View site: https://ingridhoffman.github.io/
 
 # Application
 
-Single page scrolling format with sidebar navigation. Simple header with linked sections for About Me, Work, Resume, and Contact. Responsive design for browswer and mobile viewing.
+Single page scrolling format with sidebar navigation. Simple header with linked sections for About Me, Work, Resume, and Contact. Responsive design for browser and mobile viewing.
 
 ### Technologies
-HTML, CSS, Responsive Design
-React.js framework
+
+- Built on React.js framework
+- Custom responsive CSS
+- react-scroll - single page scrolling navigation
+- react-hook-form - form validation
+- Cloudinary - image delivery
 
 ### Known Issues
 
