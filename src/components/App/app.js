@@ -1,5 +1,7 @@
+/** @format */
+
 // Global
-import React, { useEffect } from "react";
+import React from "react";
 
 // Local
 import "./app.css";

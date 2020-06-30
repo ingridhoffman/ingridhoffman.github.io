@@ -1,3 +1,5 @@
+/** @format */
+
 .button {
 	border: solid 1px #3f3f5a;
 	border-radius: 3px;
@@ -16,7 +18,9 @@
 }
 
 .small {
-	transform: scale(0.7);
-	transform-origin: right;
-	margin: 0em;
+	width: 6em;
+	padding: 0.25em;
+	font-size: 0.9em;
+	margin-left: 1em;
+	margin-bottom: 0;
 }

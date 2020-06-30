@@ -1,3 +1,5 @@
+/** @format */
+
 // Global
 import React from "react";
 
@@ -7,13 +9,10 @@ import "./button.css";
 // Export function
 function Button(props) {
 	return (
-		<div className="right">
+		<>
 			{/* ternary is used here because buttons are currently only used for links and submit - if other button types are created a switch statemnt could be implemented instead to handle more variables */}
 			{props.type === "submit" ? (
-				<button
-					type="submit"
-					aria-label="submit button"
-					className={props.small ? "button small" : "button"}>
+				<button type="submit" aria-label="submit button" className={props.small ? "button small" : "button"}>
 					send
 				</button>
 			) : (
@@ -22,11 +21,12 @@ function Button(props) {
 					rel="noopener noreferrer"
 					target="_blank"
 					aria-label={`link to ${props.label}`}
-					className={props.small ? "button small" : "button"}>
+					className={props.small ? "button small" : "button"}
+				>
 					{props.label}
 				</a>
 			)}
-		</div>
+		</>
 	);
 }
 

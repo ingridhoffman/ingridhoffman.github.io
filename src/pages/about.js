@@ -1,3 +1,5 @@
+/** @format */
+
 // Global
 import React from "react";
 
@@ -13,30 +15,11 @@ import StrategicIcon from "../assets/icons/noun_Planning process_2148913.png";
 function About() {
 	return (
 		<section id="aboutSection">
-			<h2>
-				full-stack developer with an emphasis on design and application logic
-			</h2>
+			<h2>full-stack developer with an emphasis on design and application logic</h2>
 			<div className="cardholder">
 				<IconCard
 					type="reverse"
-					text="I prioritize understanding the values, brand, and culture of the company I am working for, and strive to
-						translate the stated needs into an effective and forward-thinking application."
-				/>
-				<IconCard
-					icon={LearnIcon}
-					title="Learner"
-					text="I thrive on learning and growth. Each new project presents a challenge to push beyond the expected."
-				/>
-				<IconCard
-					icon={RelateIcon}
-					title="Relator"
-					text="By forming authentic connections, I can recognize the value each individual offers, and understand and
-					translate priorities among collaborators and stakeholders."
-				/>
-				<IconCard
-					icon={ActivateIcon}
-					title="Activator"
-					text="Ideation has great value. Turning those thoughts into action is where I live."
+					text="Excelling at understanding the needs and goals of projects and clients to optimize strategies for successful results."
 				/>
 				<IconCard
 					icon={MaximizeIcon}
@@ -45,10 +28,26 @@ function About() {
 					I can help take a project from great to superb."
 				/>
 				<IconCard
+					icon={RelateIcon}
+					title="Relator"
+					text="By forming authentic connections, I can recognize the value each individual offers, and understand and
+					translate priorities among collaborators and stakeholders."
+				/>
+				<IconCard
 					icon={StrategicIcon}
 					title="Strategic"
 					text="My agile and iterative decision process is ideally suited to optimizing strategies for successful results
 					within the realistic restraints."
+				/>
+				<IconCard
+					icon={LearnIcon}
+					title="Learner"
+					text="I thrive on learning and growth. Each new project presents a challenge to push beyond the expected."
+				/>
+				<IconCard
+					icon={ActivateIcon}
+					title="Activator"
+					text="Ideation has great value. Turning those thoughts into action is where I live."
 				/>
 			</div>
 		</section>

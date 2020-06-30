@@ -1,43 +1,41 @@
+/** @format */
+
 .card {
-	padding: 1em;
-	flex-basis: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em 2em 1em 2em;
+	flex-basis: 200px;
 	flex-shrink: 0;
 	flex-grow: 1;
 	margin: 1em;
 }
 
 .color {
-	background-color: #7a7b8a;
+	background-color: #9c9cb5;
 }
+
 .reverse {
 	background-color: white;
 }
 
 .icon {
-	width: 3em;
+	height: 3em;
+	margin-bottom: 1em;
+	align-self: flex-end;
 }
 
 .noicon {
-	height: 3em;
+	height: 2em;
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 768px) {
-	.container {
-		width: 100%;
-		margin-top: 0;
+@media only screen and (max-width: 1366px) {
+	.card {
+		padding: 1em 1em 0 1em;
+		margin: 0.75em;
 	}
-	/* aside {
-		width: 200px;
-		transform: translateX(-210px);
-		transition: transform 0.3s linear;
+	.icon {
+		height: 2.5em;
+		margin-bottom: 0.5em;
 	}
-
-	.mobile-menu {
-		display: block;
-	}
-
-	.card-project {
-		flex-shrink: 1;
-	} */
 }

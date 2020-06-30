@@ -1,3 +1,5 @@
+/** @format */
+
 // Global
 import React from "react";
 
@@ -9,7 +11,9 @@ function IconCard(props) {
 	return (
 		<div className={props.type === "reverse" ? "card reverse" : "card color"}>
 			{props.icon ? (
-				<img src={props.icon} alt="card icon" className="icon" />
+				<div className="icon">
+					<img src={props.icon} alt="card icon" className="icon" />
+				</div>
 			) : (
 				<div className="noicon"></div>
 			)}

@@ -1,3 +1,5 @@
+/** @format */
+
 footer {
 	position: -webkit-sticky;
 	position: sticky;
@@ -8,4 +10,16 @@ footer {
 .link-icon {
 	font-size: 1.5em;
 	padding-left: 0.5em;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 576px) {
+	footer {
+		position: static;
+		text-align: right;
+	}
+
+	.link-icon {
+		font-size: 1.2em;
+	}
 }
