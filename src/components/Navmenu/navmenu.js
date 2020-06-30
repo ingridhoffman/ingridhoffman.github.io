@@ -1,5 +1,7 @@
+/** @format */
+
 // Global
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-scroll";
 
 // Local
@@ -7,18 +9,18 @@ import "./navmenu.css";
 
 // Export
 function Navmenu() {
-	const [menu, setMenu] = useState([
+	const menu = [
 		{ id: "aboutSection", text: "about me" },
 		{ id: "workSection", text: "my work" },
 		{ id: "resumeSection", text: "resume" },
 		{ id: "contactSection", text: "contact" },
-	]);
+	];
 
 	return (
 		<nav>
 			<ul>
 				{menu.map((menuItem) => (
-					<li>
+					<li key={menuItem.id}>
 						<Link
 							activeClass="active"
 							to={menuItem.id}
@@ -26,7 +28,8 @@ function Navmenu() {
 							smooth={true}
 							offset={-120}
 							duration={500}
-							delay={0}>
+							delay={0}
+						>
 							{menuItem.text}
 						</Link>
 					</li>
