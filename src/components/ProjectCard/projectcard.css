@@ -1,3 +1,5 @@
+/** @format */
+
 .project {
 	flex-basis: 400px;
 	flex-shrink: 0;
@@ -22,8 +24,18 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 2em;
+	padding: 0 1em;
 	z-index: 0;
+}
+
+.tech-icons {
+	color: #170447;
+	font-size: 1.5em;
+}
+.button-group {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
 }
 
 /* hover effects */
@@ -37,4 +49,14 @@
 
 .show img {
 	opacity: 5%;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 576px) {
+	.project {
+		flex-shrink: 1;
+	}
+	.project .info {
+		font-size: 0.8em;
+	}
 }
