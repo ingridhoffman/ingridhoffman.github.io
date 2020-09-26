@@ -62,7 +62,7 @@ function Resume() {
 					<IconCard
 						icon={SolveIcon}
 						title="Creative Problem Solving"
-						text="Focusing on high-level goals and considering limitations and challenges as opportunites for innovative solutions."
+						text="Focusing on high-level goals and considering limitations and challenges as opportunities for innovative solutions."
 					/>
 				</div>
 			</div>
