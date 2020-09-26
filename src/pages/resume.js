@@ -69,7 +69,7 @@ function Resume() {
 			<div className="right">
 				<Button
 					label="resume"
-					link="https://docs.google.com/document/d/11Zhyopm-6AJJ_IqFN40BTrvV2SKfAbJRf19vFiA8UeE/edit?usp=sharing"
+					link="https://docs.google.com/document/d/1ZPS_8yD0-Z3muJ-ByK6gCYQJgSgvUmqUhIptON4XKb4/edit?usp=sharing"
 				/>
 			</div>
 		</section>
