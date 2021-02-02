@@ -30,6 +30,7 @@ function ProjectCard(props) {
 					))}
 				</div>
 				<div className="button-group">
+					{props.website ? <Button link={props.website} label="website" small /> : <></>}
 					{props.codelink ? <Button link={props.codelink} label="source" small /> : <></>}
 					{props.demolink ? <Button link={props.demolink} label="demo" small /> : <></>}
 				</div>

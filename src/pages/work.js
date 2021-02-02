@@ -19,6 +19,7 @@ function Work() {
 						title={project.name}
 						text={project.statement}
 						tech={project.tech}
+						website={project.website}
 						codelink={project.codelink}
 						demolink={project.demolink}
 						key={project.name}

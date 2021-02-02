@@ -14,6 +14,7 @@ import {
 	DiReact,
 } from "react-icons/di";
 import { AiFillApi } from "react-icons/ai";
+import { FaAws } from "react-icons/fa";
 
 class TechIcons extends Component {
 	icons = {
@@ -27,6 +28,7 @@ class TechIcons extends Component {
 		MongoDB: DiMongodb,
 		React: DiReact,
 		API: AiFillApi,
+		AWS: FaAws,
 	};
 
 	render() {

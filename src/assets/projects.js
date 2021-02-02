@@ -2,6 +2,16 @@
 
 const projects = [
 	{
+		name: "Lanyapp",
+		statement:
+			"Prototype application for Lanyapp, Inc - a secure, personal data platform that provides sophisticated data analytics for personal user application data to organize and optimize life.",
+		tech: ["HTML", "CSS", "Node", "React", "API", "AWS"],
+		image:
+			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1612226839/www.lanyapp.io__w7byal.png",
+		website: "https://www.lanyapp.io/",
+		demolink: "https://dev.d37hkq2simsx4f.amplifyapp.com/",
+	},
+	{
 		name: "How's Your Spirit",
 		statement:
 			"A mood tracking app designed for mobile platforms. Created to easily track and weight multiple moods per day and the factors that may affect them. (collaborative project)",
@@ -11,16 +21,16 @@ const projects = [
 		codelink: "https://github.com/ingridhoffman/hows-your-spirit",
 		demolink: "https://hows-your-spirit.herokuapp.com/home",
 	},
-	{
-		name: "Karao Kan I ?",
-		statement:
-			"This project sought to playfully assist in the impactful decision that most of us at some point will face: 'Do I stand up and sing? Or sit down and drink?'. (collaborative project)",
-		tech: ["HTML", "CSS", "Javascript", "jQuery", "API"],
-		image:
-			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1593380563/KaraoKanI_cqiafc.png",
-		codelink: "https://github.com/ingridhoffman/KaraoKanI",
-		demolink: "https://search-for-google-books.herokuapp.com/",
-	},
+	// {
+	// 	name: "Karao Kan I ?",
+	// 	statement:
+	// 		"This project sought to playfully assist in the impactful decision that most of us at some point will face: 'Do I stand up and sing? Or sit down and drink?'. (collaborative project)",
+	// 	tech: ["HTML", "CSS", "Javascript", "jQuery", "API"],
+	// 	image:
+	// 		"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1593380563/KaraoKanI_cqiafc.png",
+	// 	codelink: "https://github.com/ingridhoffman/KaraoKanI",
+	// 	demolink: "https://search-for-google-books.herokuapp.com/",
+	// },
 	{
 		name: "Google Books Search",
 		statement:
@@ -58,8 +68,6 @@ const projects = [
 		tech: [],
 		image:
 			"https://res.cloudinary.com/ihoffman/image/upload/t_card/v1593389807/JacobsLadderCropped_l0row2.jpg",
-		codelink: "",
-		demolink: "",
 	},
 ];
 
