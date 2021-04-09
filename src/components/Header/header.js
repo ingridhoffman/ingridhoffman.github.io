@@ -1,3 +1,5 @@
+/** @format */
+
 // Global
 import React from "react";
 
@@ -9,11 +11,8 @@ function Header() {
 	return (
 		<header>
 			<div className="quote">
-				<p className="emphasize">
-					“The secret of change is to focus all of your energy, not on fighting
-					the old, but building on the new.“
-				</p>
-				<p className="right">- Socrates</p>
+				<p className="emphasize">“Get in over your head as often and as joyfully as possible.”</p>
+				<p className="right"> – Alexander Isley</p>
 			</div>
 			<h1>Ingrid Hoffman</h1>
 		</header>
