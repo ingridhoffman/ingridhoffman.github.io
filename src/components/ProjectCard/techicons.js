@@ -12,6 +12,7 @@ import {
 	DiMysql,
 	DiMongodb,
 	DiReact,
+	DiPostgresql,
 } from "react-icons/di";
 import { AiFillApi } from "react-icons/ai";
 import { FaAws } from "react-icons/fa";
@@ -29,6 +30,7 @@ class TechIcons extends Component {
 		React: DiReact,
 		API: AiFillApi,
 		AWS: FaAws,
+		PostgreSQL: DiPostgresql,
 	};
 
 	render() {

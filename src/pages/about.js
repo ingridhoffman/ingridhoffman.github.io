@@ -15,29 +15,30 @@ import StrategicIcon from "../assets/icons/noun_Planning process_2148913.png";
 function About() {
 	return (
 		<section id="aboutSection">
-			<h2>full-stack developer with an emphasis on design and application logic</h2>
+			<h2>
+				full-stack developer with an emphasis on functional design and beautifully written code
+			</h2>
 			<div className="cardholder">
 				<IconCard
 					type="reverse"
-					text="Excelling at understanding the needs and goals of projects and clients to optimize strategies for successful results."
+					text="I excel at understanding project and client needs to optimize strategies and deliver exceptional outcomes."
 				/>
 				<IconCard
 					icon={MaximizeIcon}
 					title="Maximizer"
-					text="Teasing out the hidden gems in every project and activating the unique strengths in every team member is how
-					I can help take a project from great to superb."
+					text="Teasing out hidden gems in a project and activating unique strengths in team members is how
+					I help take a project from great to superb."
 				/>
 				<IconCard
 					icon={RelateIcon}
 					title="Relator"
-					text="By forming authentic connections, I can recognize the value each individual offers, and understand and
-					translate priorities among collaborators and stakeholders."
+					text="By forming authentic connections, I recognize the value each individual offers and can facilitate effective communication and team culture."
 				/>
 				<IconCard
 					icon={StrategicIcon}
 					title="Strategic"
 					text="My agile and iterative decision process is ideally suited to optimizing strategies for successful results
-					within the realistic restraints."
+					within realistic restraints."
 				/>
 				<IconCard
 					icon={LearnIcon}
@@ -47,7 +48,7 @@ function About() {
 				<IconCard
 					icon={ActivateIcon}
 					title="Activator"
-					text="Ideation has great value. Turning those thoughts into action is where I live."
+					text="Ideation has great value. Turning the ideas into results is where I live."
 				/>
 			</div>
 		</section>

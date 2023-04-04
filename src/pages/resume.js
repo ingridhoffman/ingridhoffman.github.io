@@ -14,15 +14,17 @@ import CommunicateIcon from "../assets/icons/noun_Communication_925161.png";
 function Resume() {
 	return (
 		<section id="resumeSection">
-			<h2>Bringing valuable expertise and experience to a new career path.</h2>
+			<h2>
+				Highly motivated and results-driven software engineer with a passion for learning and growth
+			</h2>
 			<p>
-				Through a breadth of experience in architecture and design, I have developed valuable skills
-				and knowledge that translate directly to the world of technology including:
+				Skilled in developing, maintaining, and improving software using the latest technologies and
+				methodologies.
 			</p>
 			<ul className="checklist">
 				<li>Creating intuitive and aesthetically pleasing user facing design</li>
 				<li>Building a functional, logical, and efficient framework</li>
-				<li>Structuring for an authentic integration of back-end and front-end experience</li>
+				<li>Structuring for a clear, efficient integration of back-end and front-end experience</li>
 				<li>
 					Strength in translating iteration and changing variables into innovation for an improved
 					outcome
@@ -32,32 +34,31 @@ function Resume() {
 				<div className="skills">
 					<h3>Technologies</h3>
 					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Bootstrap</li>
-						<li>Responsive Design</li>
-						<li>Javascript</li>
-						<li>JQuery</li>
-						<li>ES6+</li>
-						<li>AJAX</li>
+						<li>Semantic HTML</li>
+						<li>CSS/SCSS</li>
+						<li>ES6+ Javascript</li>
+						<li>Typescript</li>
+						<li>React</li>
+						<li>Redux</li>
 						<li>Node.js</li>
 						<li>Express</li>
 						<li>Axios</li>
 						<li>MySQL</li>
 						<li>MongoDB</li>
-						<li>React</li>
+						<li>PostgreSQL</li>
+						<li>AWS</li>
 					</ul>
 				</div>
 				<div className="cardholder">
 					<IconCard
 						icon={CommunicateIcon}
 						title="Communication"
-						text="Understanding and translating between areas of expertise and stakeholder priorities"
+						text="Building authentic relationships with active listening to increase team cohesion and productivity"
 					/>
 					<IconCard
 						icon={ManageIcon}
 						title="Project Management"
-						text="Creating, implementing, and tracking budgets, schedules, team coordination, resource and labor allocation"
+						text="Effectively planning and coordinating resources to succesfuly achieve project objectives"
 					/>
 					<IconCard
 						icon={SolveIcon}
@@ -69,7 +70,7 @@ function Resume() {
 			<div className="right">
 				<Button
 					label="resume"
-					link="https://docs.google.com/document/d/1ZPS_8yD0-Z3muJ-ByK6gCYQJgSgvUmqUhIptON4XKb4/edit?usp=sharing"
+					link="https://docs.google.com/document/d/1S_--m__y6ZEk79FoBUhSdqeeANPDvgSHme4jNwlDxx4/edit?usp=sharing"
 				/>
 			</div>
 		</section>

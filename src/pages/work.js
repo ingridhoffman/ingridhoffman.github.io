@@ -11,7 +11,7 @@ import projects from "../assets/projects";
 function Work() {
 	return (
 		<section id="workSection">
-			<h2>A great project exceeds the users needs and enhances the brand image of the client.</h2>
+			<h2>A great project exceeds the users needs and enhances the brand image of the client</h2>
 			<div className="cardholder" id="portfolio">
 				{projects.map((project, index) => (
 					<ProjectCard
