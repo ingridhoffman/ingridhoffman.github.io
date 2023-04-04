@@ -9,8 +9,8 @@ function Contact() {
 	return (
 		<section id="contactSection">
 			<h2>Let's start a conversation...</h2>
-			<Form />
-			<p className="right">ingridhoffman.pdx@gmail.com</p>
+			{/* <Form /> */}
+			<a href="mailto:ingridhoffman.pdx@gmail.com">ingridhoffman.pdx@gmail.com</a>
 		</section>
 	);
 }
