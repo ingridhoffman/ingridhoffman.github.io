@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b7d2aef.chunk.css",
-    "main.js": "/static/js/main.d4a8f904.chunk.js",
-    "main.js.map": "/static/js/main.d4a8f904.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d7d8550f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d7d8550f.js.map",
-    "static/js/2.a0cb9cc4.chunk.js": "/static/js/2.a0cb9cc4.chunk.js",
-    "static/js/2.a0cb9cc4.chunk.js.map": "/static/js/2.a0cb9cc4.chunk.js.map",
+    "main.css": "/static/css/main.1de527cd.css",
+    "main.js": "/static/js/main.417c0bc1.js",
+    "static/media/noun_networking_2148898.png": "/static/media/noun_networking_2148898.591eccfa95443b55b6f0.png",
+    "static/media/noun_management_2025303.png": "/static/media/noun_management_2025303.97e89f1d163874f8373b.png",
+    "static/media/noun_Communication_925161.png": "/static/media/noun_Communication_925161.aae1911b5e396e963037.png",
+    "static/media/noun_grow_2134952.png": "/static/media/noun_grow_2134952.131dbcd8eb923e644036.png",
+    "static/media/noun_learn_355071.png": "/static/media/noun_learn_355071.e041bf701efe2800954d.png",
+    "static/media/noun_Idea_204651.png": "/static/media/noun_Idea_204651.455ded309f94ff73fde4.png",
+    "static/media/noun_problem_2148912.png": "/static/media/noun_problem_2148912.e150b970cd9779ed0e04.png",
+    "static/media/noun_Planning process_2148913.png": "/static/media/noun_Planning process_2148913.0731b9540f699ecc262e.png",
     "index.html": "/index.html",
-    "precache-manifest.8019664fb38bfbc1cd59b6c879ec3949.js": "/precache-manifest.8019664fb38bfbc1cd59b6c879ec3949.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0b7d2aef.chunk.css.map": "/static/css/main.0b7d2aef.chunk.css.map",
-    "static/js/2.a0cb9cc4.chunk.js.LICENSE.txt": "/static/js/2.a0cb9cc4.chunk.js.LICENSE.txt",
-    "static/media/noun_Communication_925161.png": "/static/media/noun_Communication_925161.f5e9ebcf.png",
-    "static/media/noun_Idea_204651.png": "/static/media/noun_Idea_204651.31d5babc.png",
-    "static/media/noun_Planning process_2148913.png": "/static/media/noun_Planning process_2148913.6c5101ce.png",
-    "static/media/noun_grow_2134952.png": "/static/media/noun_grow_2134952.749a6033.png",
-    "static/media/noun_learn_355071.png": "/static/media/noun_learn_355071.6094c186.png",
-    "static/media/noun_management_2025303.png": "/static/media/noun_management_2025303.d36f7c80.png",
-    "static/media/noun_networking_2148898.png": "/static/media/noun_networking_2148898.ded56699.png",
-    "static/media/noun_problem_2148912.png": "/static/media/noun_problem_2148912.f2756232.png"
+    "main.1de527cd.css.map": "/static/css/main.1de527cd.css.map",
+    "main.417c0bc1.js.map": "/static/js/main.417c0bc1.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7d8550f.js",
-    "static/js/2.a0cb9cc4.chunk.js",
-    "static/css/main.0b7d2aef.chunk.css",
-    "static/js/main.d4a8f904.chunk.js"
+    "static/css/main.1de527cd.css",
+    "static/js/main.417c0bc1.js"
   ]
 }
